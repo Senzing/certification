@@ -1,70 +1,91 @@
 {
-    "certified": {
-        "streamLoader": {
-            "certifiedCurrent": "1.6.0",
-            "certifiedList": [
-                "1.6.0"
-            ],
-            "description": "Python tool for loading Senzing G2 from RabbitMQ, Kafka, URL-addressable file, or STDIN.",
-            "thumbnail": "https://senzing.github.io/stream-loader/img/thumbnail-320x225.png",
-            "title": "Stream Loader",
-            "view": "https://senzing.github.io/stream-loader"
+    "data": {
+        "certified": {
+            "stream-loader": {
+                "certifiedCurrent": "1.6.0",
+                "certifiedList": [
+                    "1.6.0"
+                ],
+                "description": "Python tool for loading Senzing G2 from RabbitMQ, Kafka, URL-addressable file, or STDIN.",
+                "thumbnail": "https://senzing.github.io/stream-loader/img/thumbnail-320x225.png",
+                "title": "Stream Loader",
+                "updated": "2020-09-15T18:47:34Z",
+                "view": "https://senzing.github.io/stream-loader"
+            },
+            "senzing-api-server": {
+                "certifiedCurrent": "2.0.1",
+                "certifiedList": [
+                    "2.0.1",
+                    "1.8.5"
+                ],
+                "description": "Server of Senzing REST API.",
+                "thumbnail": "https://senzing.github.io/senzing-api-server/img/thumbnail-320x225.png",
+                "title": "Senzing API server",
+                "updated": "2020-09-15T18:47:34Z",
+                "view": "https://senzing.github.io/senzing-api-server"
+            },
+            "entity-search-web-app": {
+                "certifiedCurrent": "2.0.0",
+                "certifiedList": [
+                    "2.0.0",
+                    "1.2.2"
+                ],
+                "description": "A lightweight http server providing a web UI for entity search through the senzing api server.",
+                "thumbnail": "https://senzing.github.io/entity-search-web-app/img/thumbnail-320x225.png",
+                "title": "Entity Search web app",
+                "updated": "2020-09-15T18:47:34Z",
+                "view": "https://senzing.github.io/entity-search-web-app"
+            },
+            "test-ground": {
+                "certifiedCurrent": "0.0.0",
+                "certifiedList": [
+                    "0.0.0"
+                ],
+                "description": "An area for testing ideas. May be wiped out at any time.",
+                "thumbnail": "https://senzing.github.io/test-ground/img/thumbnail-320x225.png",
+                "title": "Test Ground",
+                "updated": "2020-09-15T18:47:34Z",
+                "view": "https://senzing.github.io/test-ground"
+            },
+            "stream-producer": {
+                "certifiedCurrent": "1.2.2",
+                "certifiedList": [
+                    "1.2.2",
+                    "1.2.0",
+                    "1.1.5",
+                    "1.1.3"
+                ],
+                "description": "Produce a stream from different input formats.",
+                "thumbnail": "https://senzing.github.io/stream-producer/img/thumbnail-320x225.png",
+                "title": "Stream Producer",
+                "updated": "2020-09-15T18:47:34Z",
+                "view": "https://senzing.github.io/stream-producer"
+            },
+            "redoer": {
+                "certifiedCurrent": "1.3.3",
+                "certifiedList": [
+                    "1.3.2"
+                ],
+                "description": "Perform Senzing Redo operations.",
+                "thumbnail": "https://senzing.github.io/redoer/img/thumbnail-320x225.png",
+                "title": "Redoer",
+                "updated": "2020-09-15T18:47:34Z",
+                "view": "https://senzing.github.io/redoer"
+            }
         },
-        "apiServer": {
-            "certifiedCurrent": "2.0.1",
-            "certifiedList": [
-                "2.0.1",
-                "1.8.5"
-            ],
-            "description": "Server of Senzing REST API.",
-            "thumbnail": "https://senzing.github.io/senzing-api-server/img/thumbnail-320x225.png",
-            "title": "Senzing API server",
-            "view": "https://senzing.github.io/senzing-api-server"
-        },
-        "entitySearchWebApp": {
-            "certifiedCurrent": "2.0.0",
-            "certifiedList": [
-                "2.0.0",
-                "1.2.2"
-            ],
-            "description": "A lightweight http server providing a web UI for entity search through the senzing api server.",
-            "thumbnail": "https://senzing.github.io/entity-search-web-app/img/thumbnail-320x225.png",
-            "title": "Entity Search web app",
-            "view": "https://senzing.github.io/entity-search-web-app"
-        },
-        "testGround": {
-            "certifiedCurrent": "0.0.0",
-            "certifiedList": [
-                "0.0.0"
-            ],
-            "description": "An area for testing ideas. May be wiped out at any time.",
-            "thumbnail": "https://senzing.github.io/test-ground/img/thumbnail-320x225.png",
-            "title": "Test Ground",
-            "view": "https://senzing.github.io/test-ground"
-        },
-        "streamProducer": {
-            "certifiedCurrent": "1.2.2",
-            "certifiedList": [
-                "1.2.2",
-                "1.2.0",
-                "1.1.5",
-                "1.1.3"
-            ],
-            "description": "Produce a stream from different input formats.",
-            "thumbnail": "https://senzing.github.io/stream-producer/img/thumbnail-320x225.png",
-            "title": "Stream Producer",
-            "view": "https://senzing.github.io/stream-producer"
-        },
-        "redoer": {
-            "certifiedCurrent": "1.3.3",
-            "certifiedList": [
-                "1.3.2"
-            ],
-            "description": "Perform Senzing Redo operations.",
-            "thumbnail": "https://senzing.github.io/redoer/img/thumbnail-320x225.png",
-            "title": "Redoer",
-            "view": "https://senzing.github.io/redoer"
-        }
+        "updated": "2020-09-15T18:47:34Z"
     },
-    "updated": "2020-09-05"
+    "jsonapi": {
+        "version": "1.0"
+    },
+    "links": {
+        "self": "http://certified.senzing.com/certification/data/certified-artifacts.json"
+    },
+    "meta": {
+        "httpMethod": "GET",
+        "httpStatusCode": 0,
+        "timestamp": "2020-09-15T19:30:27Z",
+        "version": "1.0.0",
+        "restApiVersion": "1.0.0"
+    }
 }
