@@ -79,7 +79,7 @@
         "version": "1.0"
     },
     "links": {
-        "self": "http://certified.senzing.com/certification/data/certified-artifacts.json"
+        "self": "http://hub.senzing.com/certification/data/certified-artifacts.json"
     },
     "meta": {
         "httpMethod": "GET",
